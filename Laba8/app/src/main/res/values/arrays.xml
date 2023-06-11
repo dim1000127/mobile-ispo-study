@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ar1">
+        <item>Привет</item>
+        <item>Мир</item>
+        <item>!</item>
+        <item>Пока</item>
+    </string-array>
+    <string-array name="ar2">
+        <item>Монитор</item>
+        <item>Системный</item>
+        <item>блок</item>
+        <item>Мышь и клавиатура</item>
+    </string-array>
+</resources>

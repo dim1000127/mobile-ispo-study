@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mLL"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:text="@string/tv1"
+        style="@style/txView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:text="@string/tv2"
+        style="@style/txView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <Button
+        android:id="@+id/lBtn1"
+        android:text="@string/longBtn1"
+        style="@style/btn"
+        android:onClick="change"
+        android:backgroundTint="@color/btnBack1"
+        android:textColor="@color/txtBtnLong1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/lBtn2"
+        android:text="@string/longBtn3"
+        style="@style/btn"
+        android:onClick="change"
+        android:backgroundTint="@color/btnBack2"
+        android:textColor="@color/txtBtnLong2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/lBtn3"
+        android:text="@string/longBtn3"
+        style="@style/btn"
+        android:onClick="change"
+        android:backgroundTint="@color/btnBack3"
+        android:textColor="@color/txtBtnLong3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/shBtn1"
+            android:text="@string/shortBtn1"
+            style="@style/btn"
+            android:onClick="change"
+            android:backgroundTint="@color/btnBack1"
+            android:textColor="@color/txtBtnSh1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/shBtn2"
+            android:text="@string/shortBtn2"
+            style="@style/btn"
+            android:onClick="change"
+            android:backgroundTint="@color/btnBack4"
+            android:textColor="@color/txtBtnSh1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/shBtn3"
+            android:text="@string/shortBtn3"
+            style="@style/btn"
+            android:onClick="change"
+            android:backgroundTint="@color/btnBack3"
+            android:textColor="@color/txtBtnSh1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

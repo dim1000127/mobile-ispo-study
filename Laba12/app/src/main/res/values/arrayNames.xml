@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>White</item>
+        <item>Purple</item>
+        <item>Black</item>
+        <item>Crimson</item>
+        <item>Turquoise</item>
+    </string-array>
+</resources>

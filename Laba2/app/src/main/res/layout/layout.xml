@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/tv1"
+    android:text="@string/tv1"
+    style="@style/txView"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"/>
+<TextView
+    android:id="@+id/tv2"
+    android:text="@string/tv2"
+    style="@style/txView"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"/>
+<Button
+    android:id="@+id/add"
+    android:onClick="onAdd"
+    android:text="@string/add"
+    style="@style/btn"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"/>
+<Button
+    android:id="@+id/cpy"
+    android:onClick="onCopy"
+    android:text="Copy"
+    style="@style/btn"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"/>
+    </LinearLayout>

@@ -1,0 +1,50 @@
+package com.example.laba12;
+
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
+
+import androidx.annotation.Nullable;
+
+public class Second extends MyBaseActivity implements AdapterView.OnItemClickListener {
+
+    ListView listView;
+    private SharedPreferences preferences;
+    int colorValue;
+    String[] names;
+    int[] colors;
+    ColorsAdapter adapter;
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.second);
+        listView = (ListView)findViewById(R.id.lw);
+        names = getResources().getStringArray(R.array.array);
+        colors = getResources().getIntArray(R.array.color_values);
+        adapter = new ColorsAdapter(colors, names);
+        listView.setAdapter(adapter);
+        listView.setOnItemClickListener(this);
+        preferences = getSharedPreferences(getString(R.string.preferences),MODE_PRIVATE);
+        colorValue = preferences.getInt(getString(R.string.color), getResources().getColor(R.color.white));
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id){
+        colorValue = (int)adapter.getItem(position);
+        getWindow().getDecorView().setBackgroundColor(colorValue);
+    }
+
+    @Override
+    protected void onPause(){
+        super.onPause();
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putInt(getString(R.string.color), colorValue);
+        editor.commit();
+    }
+
+    public void back(View view){
+        onBackPressed();
+    }
+}

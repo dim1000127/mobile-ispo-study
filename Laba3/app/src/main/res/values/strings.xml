@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Laba3</string>
+    <string name="tv1">TextView1</string>
+    <string name="tv2">TextView2</string>
+    <string name="longBtn1">Red-Green</string>
+    <string name="longBtn2">Yellow-Blue</string>
+    <string name="longBtn3">Black-White</string>
+    <string name="shortBtn1">Red</string>
+    <string name="shortBtn2">Blue</string>
+    <string name="shortBtn3">Black</string>
+
+</resources>

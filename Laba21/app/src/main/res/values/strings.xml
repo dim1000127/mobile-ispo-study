@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Laba21</string>
+    <string name="addTextToast">Запись добавлена</string>
+    <string name="editTextToast">Запись изменена</string>
+</resources>

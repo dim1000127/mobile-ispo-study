@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Laba34</string>
+    <string name="Btn1">Add</string>
+    <string name="Btn2">Edit</string>
+    <string name="Btn3">Del</string>
+    <string name="Btn4">Clear</string>
+
+
+</resources>

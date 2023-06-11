@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/btn1"
+        android:text="Показать Toast"
+        android:layout_margin="10dp"
+        android:onClick="showToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"/>
+    <Button
+        android:id="@+id/btn2"
+        android:text="Показать Toast(Ресурсы)"
+        android:layout_margin="10dp"
+        android:onClick="showToastTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"/>
+    <Button
+        android:id="@+id/btn3"
+        android:text="Показать Toast(Кот)"
+        android:layout_margin="10dp"
+        android:onClick="showToastThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"/>
+    <Button
+        android:id="@+id/btn4"
+        android:text="Показать кастомный Toast"
+        android:layout_margin="10dp"
+        android:onClick="showToastFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"/>
+    <Button
+        android:id="@+id/btn5"
+        android:text="Показать кастомный Toast(Update)"
+        android:layout_margin="10dp"
+        android:onClick="showToastFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"/>
+    <Button
+        android:id="@+id/btn6"
+        android:text="Показать Toast(ToastHelper)"
+        android:layout_margin="10dp"
+        android:onClick="showToastSix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"/>
+</LinearLayout>

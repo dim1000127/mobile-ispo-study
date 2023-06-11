@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <EditText
+        android:id="@+id/et1"
+        android:layout_margin="10dp"
+        android:hint="Фамилия"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/et2"
+        android:layout_margin="10dp"
+        android:hint="Имя"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/et3"
+        android:layout_margin="10dp"
+        android:hint="Возраст"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:layout_margin="10dp"
+        android:text="Добавить в таблицу"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="addTable_Click"/>
+    <Button
+        android:layout_margin="10dp"
+        android:text="Отобразить в ListView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="displayLv_Click"/>
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/name_worldSkills"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:background="@drawable/icon_bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/icon_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/name_Bankomats"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bankomats"
+            android:background="@drawable/tdraw"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@drawable/icon_key"
+            android:gravity="center"
+            android:paddingHorizontal="25dp"
+            android:layout_marginHorizontal="30dp"
+            android:textAllCaps="false"
+            android:text="Отделения и банкоматы"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="bankomats_Click"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/name_valute"
+        android:layout_marginBottom="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/tdraw"
+        android:backgroundTint="@color/white"
+        android:layout_marginHorizontal="30dp"
+        android:onClick="valute_Click"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <TextView
+                android:id="@+id/kurs_valute"
+                android:paddingLeft="20dp"
+                android:text="Курсы валют"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/icon_dol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/date_valute"
+                android:text="09.04.2021"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="35dp">
+
+            <TextView
+                android:text="USD"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvValuteUsd"
+                android:text="70.00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:text="EUR"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvValuteEur"
+                android:text="70.00"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:text="Войти"
+            android:background="@drawable/tdraw"
+            android:backgroundTint="@color/blue"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="30dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="enter_Click"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="tvBack">#00DDDDFF</color>
+    <color name="tvTxt">#000000</color>
+    <color name="txtBtnLong1">#4CAF50</color>
+    <color name="txtBtnLong2">#00BCD4</color>
+    <color name="txtBtnLong3">#FFFFFF</color>
+    <color name="txtBtnSh1">#FFFFFF</color>
+    <color name="btnBack1">#F43636</color>
+    <color name="btnBack2">#FFEB3B</color>
+    <color name="btnBack3">#000000</color>
+    <color name="btnBack4">#2196F3</color>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Laba2</string>
+    <string name="tv1">TextView1</string>
+    <string name="tv2">TextView2</string>
+    <string name="add">Add</string>
+    <string name="cpy">Cpy</string>
+</resources>

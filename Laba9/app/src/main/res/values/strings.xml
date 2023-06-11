@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Laba9</string>
+    <string name="preferences">Settings</string>
+    <string name="key1">Key_1</string>
+    <string name="key2">Key_2</string>
+    <string name="key3">Key_3</string>
+</resources>
